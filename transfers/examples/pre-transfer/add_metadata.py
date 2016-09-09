@@ -18,7 +18,7 @@ def main(transfer_path):
         return 1
     print('Identifier: ', dc_id, end='')
     metadata = [
-        ['parts', ' dc.identifier'],
+        ['parts', 'dc.identifier'],
         ['objects', dc_id]
     ]
     metadata_path = os.path.join(transfer_path, 'metadata')
